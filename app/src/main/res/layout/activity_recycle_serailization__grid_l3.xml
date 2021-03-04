@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".RecycleSerailization_GridL3">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_share_24"
+        android:layout_marginVertical="50dp"
+        android:layout_marginHorizontal="360dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_shopping_bag_24"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="360dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_favorite_border_24"
+        android:layout_marginVertical="90dp"
+        android:layout_marginHorizontal="360dp"/>
+
+
+    <ImageView
+        android:id="@+id/Grid3Image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kettel"
+        android:layout_marginBottom="420dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ellementry"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginVertical="354dp"
+        android:layout_marginHorizontal="30dp"/>
+
+    <TextView
+        android:id="@+id/Grid3Style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gold-Toned Milk and Sugar Kettle"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:layout_marginVertical="356dp"
+        android:layout_marginLeft="145dp"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="25dp"
+        android:src="@drawable/rupeegray"
+        android:layout_marginVertical="400dp"
+        android:layout_marginHorizontal="30dp"/>
+
+    <TextView
+        android:id="@+id/Grid3price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2,290"
+        android:textColor="@color/gray"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:layout_marginVertical="397dp"
+        android:layout_marginHorizontal="55dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="inclusive of all taxes"
+        android:textSize="15sp"
+        android:textColor="@color/Green"
+        android:layout_marginVertical="425dp"
+        android:layout_marginHorizontal="60dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Details"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginVertical="450dp"
+        android:layout_marginHorizontal="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Content :"
+        android:textSize="14sp"
+        android:textColor="@color/gray"
+        android:layout_marginVertical="480dp"
+        android:layout_marginHorizontal="50dp"/>
+
+    <TextView
+        android:id="@+id/Grid3content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 Kettle Set"
+        android:textSize="14sp"
+        android:textColor="@color/gray"
+        android:layout_marginVertical="480dp"
+        android:layout_marginHorizontal="115dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pattern :"
+        android:textSize="14sp"
+        android:textColor="@color/gray"
+        android:layout_marginVertical="500dp"
+        android:layout_marginHorizontal="50dp"/>
+
+    <TextView
+        android:id="@+id/Grid3pattern"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solid"
+        android:textSize="14sp"
+        android:textColor="@color/gray"
+        android:layout_marginVertical="500dp"
+        android:layout_marginHorizontal="115dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Colour :"
+        android:textSize="14sp"
+        android:textColor="@color/gray"
+        android:layout_marginVertical="520dp"
+        android:layout_marginHorizontal="50dp"/>
+
+    <TextView
+        android:id="@+id/Grid3colour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yellow"
+        android:textSize="14sp"
+        android:textColor="@color/gray"
+        android:layout_marginVertical="520dp"
+        android:layout_marginHorizontal="115dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Material :"
+        android:textSize="14sp"
+        android:textColor="@color/gray"
+        android:layout_marginVertical="540dp"
+        android:layout_marginHorizontal="50dp"/>
+
+    <TextView
+        android:id="@+id/Grid3material"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ceramic"
+        android:textSize="14sp"
+        android:textColor="@color/gray"
+        android:layout_marginVertical="540dp"
+        android:layout_marginHorizontal="115dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Size And Fit "
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginVertical="565dp"
+        android:layout_marginHorizontal="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dimensions :"
+        android:textSize="14sp"
+        android:textColor="@color/gray"
+        android:layout_marginVertical="590dp"
+        android:layout_marginHorizontal="55dp"/>
+
+    <TextView
+        android:id="@+id/Grid3dimension"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30*30*30"
+        android:textSize="14sp"
+        android:textColor="@color/gray"
+        android:layout_marginVertical="610dp"
+        android:layout_marginHorizontal="70dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Height*Width*Depth)"
+        android:textColor="@color/gray"
+        android:textSize="14sp"
+        android:layout_marginVertical="610dp"
+        android:layout_marginLeft="170dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Style Note :"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginVertical="635dp"
+        android:layout_marginHorizontal="30dp"/>
+    <TextView
+        android:id="@+id/Grid3Note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This ceramic jug sits well on your dining table and on your night stand. Its sky blue flowers give it a celestial appearance.Pair it with other pieces from fiore to complete the look."
+        android:textSize="14sp"
+        android:textColor="@color/gray"
+        android:layout_marginVertical="660dp"
+        android:layout_marginLeft="50dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
